@@ -1,0 +1,10 @@
+CRITICAL - 2020-11-23 00:48:49 --> Invalid file: v_index.php
+#0 Y:\Server\Training-CRUD-Codeigniter-4-Slug\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_index.php')
+#1 Y:\Server\Training-CRUD-Codeigniter-4-Slug\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('v_index', Array, true)
+#2 Y:\Server\Training-CRUD-Codeigniter-4-Slug\app\Controllers\Home.php(9): view('v_index')
+#3 Y:\Server\Training-CRUD-Codeigniter-4-Slug\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 Y:\Server\Training-CRUD-Codeigniter-4-Slug\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 Y:\Server\Training-CRUD-Codeigniter-4-Slug\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 Y:\Server\Training-CRUD-Codeigniter-4-Slug\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 Y:\Server\Training-CRUD-Codeigniter-4-Slug\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('Y:\\Server\\Train...')
+#8 {main}
